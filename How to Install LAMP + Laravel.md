@@ -39,7 +39,8 @@ OR if your composer is located inside the .config directory
 ```
 PATH="~/.config/composer/vendor/bin:$PATH"
 ```
-## Creating your Laravel projecto
+## Creating your Laravel project
+
 ```
 composer global update
 Laravel new <project name>
