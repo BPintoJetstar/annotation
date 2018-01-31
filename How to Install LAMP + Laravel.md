@@ -46,4 +46,4 @@ composer global update
 Laravel new <project name>
 php  artisan serve
 ```
-after that you should be able to access your server by localhost file
+after that you should be able to access your server by localhost IP
