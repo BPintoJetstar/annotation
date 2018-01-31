@@ -1,5 +1,5 @@
 
-# Installing LAMP (Linux Ubuntu 16.0\ Apache \ MySQL\ PHP)
+# Installing LAMP (Linux Ubuntu 16\ Apache \ MySQL\ PHP)
 This tutorial teaches you how to install and setup laravel application on Ubuntu 16.0.4;.
 
 
@@ -46,4 +46,4 @@ composer global update
 Laravel new <project name>
 php  artisan serve
 ```
-after that you should be able to access your server by localhost IP
+after that you should be able to access an wellcome page through localhost domain.
