@@ -1,5 +1,5 @@
 
-# Instalatling LAMP (Linux Ubuntu 16.0\ Apache \ MySQL\ PHP)
+# Installing LAMP (Linux Ubuntu 16.0\ Apache \ MySQL\ PHP)
 This tutorial teaches you how to install and setup laravel application on Ubuntu 16.0.4;.
 
 
