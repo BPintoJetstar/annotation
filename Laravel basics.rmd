@@ -47,7 +47,7 @@ public function down()
         $table->dropColumn('tamanho');
     });
 }
-    ```
+ ```
 ## Seeders
 run the seeds from artisan console. Use `--class=<seed class>` to run specificacly 
 
