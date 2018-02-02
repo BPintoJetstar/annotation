@@ -1,10 +1,12 @@
-## Creating Models
+##  Models
 
-Creating a model class. Param `-m` to create a model with migration classe
+Creating a model class. Param `-m` to create a model with migration classe;
+
 
 ```
 php artisan make:model <model_name>
 ```
+Use `public $timestamps = false;` if you don't want to track this field.
 ## Migrations 
 Commands:
 ```
