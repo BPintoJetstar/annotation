@@ -75,7 +75,7 @@ class DatabaseSeeder extends Seeder
 }
 ```
 
-##Relations
+## Relations
 
 Let two class Planet and Being related in a 1 to many relation.
 
