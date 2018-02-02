@@ -1,0 +1,26 @@
+##Creating Models
+
+Creating a model class. Param `-m` to create a model with migration classe
+
+```
+php artisan make:model <model_name>
+```
+
+
+##Creating Migrations 
+
+Migration exemple
+
+```
+public function up()
+{
+    Schema::create('produtos', function(Blueprint $table)
+    {
+        $table->increments('id');
+        $table->string('nome');
+        $table->string('descricao');
+        // ...
+        $table->timestamps();
+    });
+}
+```
