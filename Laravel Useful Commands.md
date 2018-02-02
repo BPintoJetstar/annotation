@@ -8,6 +8,10 @@ Clear the cache
 ```
 php artisan config:cache
 ```
+Creating a key
+```
+ php artisan key:generate
+ ```
 Creating a model
 ```
 php artisan make:model
