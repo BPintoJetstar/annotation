@@ -7,9 +7,15 @@ php artisan make:model <model_name>
 ```
 
 
-##Creating Migrations 
+##Migrations 
+Commands:
+```
+php artisan migrate
+php artisan make:migration name
+php artisan migrate:rollback
+```
 
-Migration exemple
+Migration to create table:
 
 ```
 public function up()
@@ -18,9 +24,29 @@ public function up()
     {
         $table->increments('id');
         $table->string('nome');
-        $table->string('descricao');
-        // ...
-        $table->timestamps();
+            $table->timestamps();
     });
 }
+
+public function down()
+{
+    Schema::drop('produtos');
+}
 ```
+Migration to alter colonm:
+
+```
+public function up()
+{
+    Schema::table('produtos', function($table) {
+        $table->string('tamanho', 100);
+    });
+}
+
+public function down()
+{
+    Schema::table('produtos', function($table) {
+        $table->dropColumn('tamanho');
+    });
+}
+    ```
