@@ -100,4 +100,14 @@ class Being extends Model {
    }
 ```
 
+## Controller
+
+Listing 
+Do not forget to import de model classs
+```
+public function lista(){
+    $produtos = Produto::all();
+    return view('produtos.listagem')->with('produtos', $produtos);
+}
+```
 
