@@ -77,7 +77,7 @@ class DatabaseSeeder extends Seeder
 
 ## Relations
 
-Let two class Planet and Being related in a 1 to many relation.
+Let two class Planet and Being related in a `one to many` relation.
 
 Model class Plane should have a method as follow:
 
