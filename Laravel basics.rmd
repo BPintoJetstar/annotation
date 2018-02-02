@@ -33,7 +33,7 @@ public function down()
     Schema::drop('produtos');
 }
 ```
-Migration to alter colonm:
+Migration to alter colomn:
 
 ```
 public function up()
