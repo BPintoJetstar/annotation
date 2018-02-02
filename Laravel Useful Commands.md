@@ -4,6 +4,10 @@ Change the name space
 ```
 php artisan app:name <project name>
 ```
+Clear the cache
+```
+php artisan config:cache
+```
 Creating a model
 ```
 php artisan make:model
