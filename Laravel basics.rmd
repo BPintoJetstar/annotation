@@ -5,8 +5,6 @@ Creating a model class. Param `-m` to create a model with migration classe
 ```
 php artisan make:model <model_name>
 ```
-
-
 ##Migrations 
 Commands:
 ```
@@ -50,3 +48,27 @@ public function down()
     });
 }
     ```
+## Seeders
+run the seeds from artisan console. Use `--class=<seed class>` to run specificacly 
+
+```
+php artisan db:seed 
+```
+
+Set the class as fallow:
+```
+class DatabaseSeeder extends Seeder
+{
+    public function run()
+    {  // Model::unguard();
+         $this->call('CurrenciaTableSeeder');
+    }
+}
+    class CurrenciaTableSeeder extends Seeder
+{
+    public function run()
+    {
+         Categoria::create(['nome' => 'bitcoin']); 
+    }
+}
+```
