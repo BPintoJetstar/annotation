@@ -1,11 +1,11 @@
-##Creating Models
+## Creating Models
 
 Creating a model class. Param `-m` to create a model with migration classe
 
 ```
 php artisan make:model <model_name>
 ```
-##Migrations 
+## Migrations 
 Commands:
 ```
 php artisan migrate
