@@ -74,3 +74,30 @@ class DatabaseSeeder extends Seeder
     }
 }
 ```
+
+##Relations
+
+Let two class Planet and Being related in a 1 to many relation.
+
+Model class Plane should have a method as follow:
+
+```
+class Planet extends Model {
+
+ public function being(){
+        return $this->hasMany('name_space\being');
+     }
+   }
+```
+Model class Being should a method as follow:
+
+```
+class Being extends Model {
+
+ public function planet(){
+        return $this->belongsTo('name_space\planet');
+     }
+   }
+```
+
+
