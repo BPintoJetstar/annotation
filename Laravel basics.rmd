@@ -110,4 +110,3 @@ public function lista(){
     return view('produtos.listagem')->with('produtos', $produtos);
 }
 ```
-
