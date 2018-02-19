@@ -8,6 +8,12 @@ Apache
 ```
 sudo service apache2 reload
 ```
+Restarting the machine 
+```
+sudo shutdown -r now
+```
+
+
 ##  Models
 
 Creating a model class. Param `-m` to create a model with migration classe;
