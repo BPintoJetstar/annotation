@@ -1,3 +1,12 @@
+
+# Restart Server
+MySQL
+```
+sudo /etc/init.d/mysql start
+```
+Apache 
+```
+sudo service apache2 reload
 ##  Models
 
 Creating a model class. Param `-m` to create a model with migration classe;
@@ -114,4 +123,6 @@ public function lista(){
 Showing Info
 ```
 Debugbar::info($object);
+```
+
 ```
