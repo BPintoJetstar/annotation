@@ -1,10 +1,10 @@
 
 # Restart Server
-MySQL
+Restarting  MySQL
 ```
 sudo /etc/init.d/mysql start
 ```
-Apache 
+Restarting  Apache 
 ```
 sudo service apache2 reload
 ```
