@@ -133,7 +133,7 @@ Debugbar::info($object);
 ```
 
 ## Interesting Features 
-```
+
 >E-mail theme
 
-```
+
