@@ -39,11 +39,16 @@ OR if your composer is located inside the .config directory
 ```
 PATH="~/.config/composer/vendor/bin:$PATH"
 ```
-## Creating your Laravel project
+## Creating your Laravel project with the lastest version
 
 ```
 composer global update
 Laravel new <project name>
 php  artisan serve
 ```
-after that you should be able to access an wellcome page through localhost domain.
+This command will create a new directory with the specified name. After that you should be able to access an wellcome page through localhost domain.
+
+If you want specífify the version use the following commmand instead:
+```
+composer create-project laravel/laravel blog  "5.5.*" --prefer-dist
+```
