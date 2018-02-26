@@ -50,5 +50,5 @@ This command will create a new directory with the specified name. After that you
 
 If you want specífify the version use the following commmand instead:
 ```
-composer create-project laravel/laravel blog  "5.5.*" --prefer-dist
+composer create-project laravel/laravel <project name>  "5.5.*" --prefer-dist
 ```
