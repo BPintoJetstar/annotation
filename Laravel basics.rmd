@@ -136,4 +136,8 @@ Debugbar::info($object);
 
 >E-mail theme
 
-
+## Concepts
+If two models `Book` and `Page` ralate each other. We can can easily access a register within the relation WITHOUT importing. We would implement exemplo bellow insed the Book model class:
+```
+$page = Page :: where('page_number','=','25')->FirstOrFail();
+```
