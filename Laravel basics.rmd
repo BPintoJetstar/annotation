@@ -12,7 +12,7 @@ Restarting the machine
 ```
 sudo shutdown -r now
 ```
-##Console configurations
+## Console configurations
 Restart everything
 ```
 php artisan config:cache
