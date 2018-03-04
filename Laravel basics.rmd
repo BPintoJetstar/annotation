@@ -1,5 +1,5 @@
 
-# Restart Server
+## Restart Server
 Restarting  MySQL
 ```
 sudo /etc/init.d/mysql start
@@ -12,7 +12,17 @@ Restarting the machine
 ```
 sudo shutdown -r now
 ```
+##Console configurations
+Restart everything
+```
+php artisan config:cache
+```
 
+Fixing project files and regenerates autoload files
+```
+composer dump-autoload
+```
+if `composer dump-autoload` is not found, just enable this option `composer config -g -- disable-tls true`.
 
 ##  Models
 
@@ -126,8 +136,8 @@ public function lista(){
     return view('produtos.listagem')->with('produtos', $produtos);
 }
 ```
-## Debugbar
-Showing Info
+## Debug
+Showing Info from Debugbar
 ```
 Debugbar::info($object);
 ```
