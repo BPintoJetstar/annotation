@@ -39,6 +39,7 @@ Commands:
 php artisan migrate
 php artisan make:migration name
 php artisan migrate:rollback
+php artian migrate:fresh
 ```
 
 Migration to create table:
@@ -77,7 +78,7 @@ public function down()
 }
  ```
 ## Seeders
-run the seeds from artisan console. Use `--class=<seed class>` to run specificacly 
+run the seeds from artisan console. Use `--class=<class name>` to run specificacly 
 
 ```
 php artisan db:seed 
