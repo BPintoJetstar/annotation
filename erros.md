@@ -15,7 +15,7 @@ Do not put two ` @endsection` inside blade file.
 ## Symfony \ Component \ Debug \ Exception \ FatalThrowableError (E_RECOVERABLE_ERROR)
 ### Type error: Too few arguments to function App\Http\Controllers\EmpresaController::usuarioIndex(), 0 passed and exactly 1 expected
 
-I forgot to properly set the route if `{id}` 
+I forgot to properly set the route with `{id}` 
 
 ## Integrity
 
