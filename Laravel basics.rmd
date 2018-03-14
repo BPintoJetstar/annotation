@@ -33,6 +33,10 @@ Creating a model class. Param `-m` to create a model with migration classe;
 php artisan make:model <model_name>
 ```
 Add `public $timestamps = false;` to your Model class if you don't want to keep track of time 
+
+Create model, controller with resouce and migration at once
+```php artisan make:model <Model name> -mcr```
+
 ## Migrations 
 Commands:
 ```
