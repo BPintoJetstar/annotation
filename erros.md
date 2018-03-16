@@ -24,4 +24,4 @@ Try to usebn `$request>input` instead of  `$request>only` when requesting checkb
 ## Illuminate \ Database \ QueryException (42S22)
 ### SQLSTATE[42S22]: Column not found: 1054 Unknown column 'unidades_id' i
 
-Put in  foreing as second argument on BelongsTo method
+Set the foreing key  as second argument on BelongsTo method
