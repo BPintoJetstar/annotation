@@ -21,4 +21,7 @@ I forgot to properly set the route with `{id}`
 
 Try to usebn `$request>input` instead of  `$request>only` when requesting checkbox array
 
+## Illuminate \ Database \ QueryException (42S22)
+### SQLSTATE[42S22]: Column not found: 1054 Unknown column 'unidades_id' i
 
+Put in  foreing as second argument on BelongsTo method
