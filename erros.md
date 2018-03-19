@@ -20,3 +20,8 @@ Try to usebn `$request>input` instead of  `$request>only` when requesting checkb
 ## Illuminate \ Database \ QueryException (42S22)
 ### SQLSTATE[42S22]: Column not found: 1054 Unknown column 'unidades_id' i
 Set the foreing key  as second argument on BelongsTo method
+
+
+## BadMethodCallException
+### Method [only] does not exist on 
+O put the name of Request objet insed the method `store(Request $resquest)` wrong 
