@@ -9,3 +9,7 @@
 - If you are done with the branc use `git merge` 
 ## Setting Upstream to your branch
 `git branch --set-upstreamto=origim/[master|<other branch] <branch name>` 
+
+## To save small updates without commit
+- Save with git `stash <stash name>`
+- Retrieve with `git stash <stash  name>`
