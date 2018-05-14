@@ -15,4 +15,7 @@
 - Retrieve with `git stash <stash  name>`
 ## Return back to an old commit state 
 - `git reverse <commit hash code>`
-   More suitable use this on master bracn instead of `git reset` to avoid historic modification 
+   More suitable use this on master bracn instead of `git reset` to avoid historic modification.
+   If somehow you change the historic you `git push [...] --force` to bypass the error.
+- `git resert<commit hash code>`
+   Useful for working branches  with parameters `--soft |--hard ` to determine if you wish to keep changes or not.
