@@ -18,8 +18,11 @@
 - `git reverse <commit hash code>`
 
    More suitable use this on master bracn instead of `git reset` to avoid historic modification.
-   If somehow you change the historic you `git push [...] --force` to bypass the error.
+   If somehow you change the historic use `git push [...] --force` to bypass the error.
 
 - `git resert<commit hash code>`
 
    Useful for working branches  with parameters `--soft |--hard ` to determine if you wish to keep changes or not.
+   
+   ## Resolving conflits
+-  After modifiing the conflicted files  `git add .` to add the files to stage and `git merge --continue`continue the merge  or `git rebase --continue` if you are using rebase.
