@@ -13,3 +13,6 @@
 ## To save small updates without commit
 - Save with git `stash <stash name>`
 - Retrieve with `git stash <stash  name>`
+## Return back to an old commit state 
+- `git reverse <commit hash code>`
+   More suitable use this on master bracn instead of `git reset` to avoid historic modification 
