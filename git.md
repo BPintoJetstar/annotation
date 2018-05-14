@@ -4,7 +4,7 @@
    
    where `-u` syncronizes your local branch with the remote branch
    
-## Rool to deal with branch
+## Rule to deal with branch
 - If you need to update the brach use `git pull --REBASE`
 - If you are done with the branc use `git merge` 
 
