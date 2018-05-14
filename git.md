@@ -7,3 +7,5 @@
 ## Rool to deal with branch
 - If you need to update the brach use `git pull --REBASE`
 - If you are done with the branc use `git merge` 
+## Setting Upstream to your branch
+`git branch --set-upstreamto=origim/[master|<other branch] <branch name>` 
