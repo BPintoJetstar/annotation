@@ -29,4 +29,4 @@
 - `git merge --continue`continue the merge  or `git rebase --continue` if you are using rebase. 
 - Finalize with `git push`.
       
-      DO NOT USE to solve conflit `git commit -m`. 
+      DO NOT USE  `git commit -m` to solve conflicts. 
