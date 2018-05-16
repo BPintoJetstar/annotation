@@ -29,4 +29,4 @@
 - `git merge --continue`continue the merge  or `git rebase --continue` if you are using rebase. 
 - Finalize with `git push`.
       
-      DO NOT USE  `git commit -m` to solve conflicts. 
+    Attention: DO NOT USE  `git commit -m` to solve conflicts. And Also use `--rebase` parameter when pulling from remote.
