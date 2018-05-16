@@ -4,9 +4,9 @@
    
    where `-u` syncronizes your local branch with the remote branch
    
-## Rule to deal with branch
+## Rules to deal with branch
 - If you need to update the brach use `git pull --REBASE`
-- If you are done with the branc use `git merge` 
+- If you are done with the branch use `git merge` 
 
 ## Setting Upstream to your branch
 `git branch --set-upstreamto=origim/[master|<other branch] <branch name>` 
