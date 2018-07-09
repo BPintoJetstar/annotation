@@ -4,15 +4,18 @@
 ### SELEC EVERYT TWORADS BOTTOM
 SHIFT + ↓
 
-## SELECT EVERYTHING TWORADS RIGHT
+### SELECT EVERYTHING TWORADS RIGHT
 SHITFT + END
 
 ------------------------------------------
+
+
+
 ### Last Filled row
 CTRL + ↓
 
-## Last row
+### Last row
 CTRL + END
 
-## Last cell of the row are are currently o
+### Last cell of the row are are currently o
 END
