@@ -1,11 +1,11 @@
 
 
 
-### SELEC EVERYT TOWARDS BOTTOM
+### SELECT EVERYTHING TOWARDS BOTTOM
 SHIFT + ↓
 
 ### SELECT EVERYTHING TOWARDS RIGHT
-SHITFT + END
+SHIFT + END
 
 ------------------------------------------
 
@@ -17,5 +17,5 @@ CTRL + ↓
 ### Last row
 CTRL + END
 
-### Last cell of the row are are currently o
+### Last cell of the currenty row
 END
