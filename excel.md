@@ -2,14 +2,9 @@
 
 
 ### SELECT EVERYTHING TOWARDS BOTTOM
-SHIFT + ↓
-
-### SELECT EVERYTHING TOWARDS RIGHT
 SHIFT + END
 
 ------------------------------------------
-
-
 
 ### Last Filled row
 CTRL + ↓
