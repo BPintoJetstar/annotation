@@ -31,10 +31,10 @@
       
     Attention: DO NOT USE  `git commit -m` to solve conflicts. And ALWAYS use `--rebase` parameter when pulling from remote.
  ## Remove branch
-- Remote: git push <remote_name> --delete <branch_name>
-- Local: git branch -d <branch_name>
+- Remote: `git push <remote_name> --delete <branch_name>`
+- Local: `git branch -d <branch_name>`
 
    Note: The `-d` option is an alias for `--delete`, which only deletes the branch if it has already been fully merged in its upstream    branch. You could also use `-D`, which is an alias for `--delete --force`, 
    
  ## Create and Checkout
-- git checkout -b <branch_name>
+- `git checkout -b <branch_name>`
