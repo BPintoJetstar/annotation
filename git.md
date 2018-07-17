@@ -24,7 +24,7 @@
 
    Useful for working branches  with parameters `--soft |--hard ` to determine if you wish to keep changes or not.
    
-   ## Resolving conflits
+## Resolving conflits
 -  After resolving the conflicted files use `git add .` to add the files to stage.
 - `git commit`continue the merge  or `git rebase --continue` if you are using rebase. 
 - Finalize with `git push origing master`.
