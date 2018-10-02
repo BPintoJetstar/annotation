@@ -1,3 +1,38 @@
+## Git global setup
+
+```
+git config --global user.name "Manuel Almeida"
+git config --global user.email "manuel.almeida@marlo.com.au"
+```
+
+# Create a new repository
+
+```
+git clone https://gitlab.com/manuel.almeida/test.git
+cd test
+```
+
+# Existing folder
+
+```
+cd existing_folder
+git init
+git remote add origin https://gitlab.com/manuel.almeida/test.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+```
+
+# Existing Git repository
+
+``` 
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin https://gitlab.com/manuel.almeida/test.git
+git push -u origin --all
+git push -u origin --tags
+```
+
 ## Push to repository with branch
 - Move to you working branch
 - `git push -u origin <branch>`
