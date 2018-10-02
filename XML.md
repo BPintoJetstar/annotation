@@ -18,6 +18,23 @@ with XML as there are no built-in presentational features such as exist in HTML,
 its main advantages
 
 # XML origin
+XML was developed by an XML Working Group (originally known as the SGML Editorial Review Board) formed under the auspices of the World Wide Web Consortium (W3C) in 1996. It was chaired by Jon Bosak of Sun Microsystems with the active participation of an XML Special Interest Group (previously known as the SGML Working Group) also organized by the W3C. The membership of the XML Working Group is given in an appendix. Dan Connolly served as the WG's contact with the W3C.
+
+The design goals for XML are:
+
+XML shall be straightforwardly usable over the Internet.
+XML shall support a wide variety of applications.
+XML shall be compatible with SGML.
+It shall be easy to write programs which process XML documents.
+The number of optional features in XML is to be kept to the absolute minimum, ideally zero.
+XML documents should be human-legible and reasonably clear.
+The XML design should be prepared quickly.
+The design of XML shall be formal and concise.
+XML documents shall be easy to create.
+Terseness in XML markup is of minimal importance.
+This specification, together with associated standards (Unicode and ISO/IEC 10646 for characters, Internet RFC 1766 for language identification tags, ISO 639 for language name codes, and ISO 3166 for country name codes), provides all the information necessary to understand XML Version 1.0 and construct computer programs to process it.
+
+This version of the XML specification may be distributed freely, as long as all text and legal notices remain intact.
 
 # XML structure
 
@@ -84,6 +101,23 @@ known as `validation`.
 
 </xs:schema>
 ```
+
+
+The <schema> element is the root element of every XML Schema:
+ xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  indicates that the elements and data types used in the schema come from the "http://www.w3.org/2001/XMLSchema" namespace. It also specifies that the elements and data types that come from the "http://www.w3.org/2001/XMLSchema" namespace should be prefixed with xs:
+
+
+```xml
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">
+...
+...
+```
+
 # Elements and Attributes
 An element can contain:
 
@@ -91,6 +125,12 @@ An element can contain:
 - attributes
 - other elements
 - or a mix of the above
+
+Simple elements cannot have attributes. If an element has attributes, it is considered to be of a complex type. But the attribute itself is always declared as a simple type.
+
+The syntax for defining an attribute is:
+`<xs:attribute name="xxx" type="yyy"/>`
+See Ww3schools for **fixed ,default,optinal** and **required** attirbutes 
 
 ```xml
 <!--Element -->
@@ -111,10 +151,40 @@ XPath Expression | Result
 //title[@lang='en']	| Selects all the title elements that have a "lang" attribute with a value of "en"
 /bookstore/book[price>35.00]	| Selects all the book elements of the bookstore element that have a price element with a value greater than 35.00
 
+# XSl and XSLT
+**XSL (eXtensible Stylesheet Language)** is a styling language for XML.
+**XSLT stands for XSL Transformations** 
+ XSLT Laguange used to transform xml documents into another documents as HTML
+seee : [W3Schools - XSLT](https://www.w3schools.com/xml/tryxslt.asp?xmlfile=cdcatalog&xsltfile=cdcatalog)
+
+# XQuery
+XQuery is to XML what SQL is to databases.
+XQuery was designed to query XML data.
 
 
 # Types
 # Complex type and Simple type
+ simple element is an XML element that contains only text. It cannot contain any other elements or attributes.
+
+`<xs:element name="xxx" type="yyy"/>`
+see  W3Schools for  fixed and defatul values elements
+
 # Mandatory
+
 # Cardinality
+
 # Restriction
+Also refered as **Facets**, restrictions are used to define acceptable values for XML elements or attributes.
+The following example defines an element called "age" with a restriction. The value of age cannot be lower than 0 or greater than 120:
+```xml
+<xs:element name="age">
+  <xs:simpleType>
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="120"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+```
+
+
