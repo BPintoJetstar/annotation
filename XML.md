@@ -44,7 +44,12 @@ This version of the XML specification may be distributed freely, as long as all 
 
 # Namespaces
 Basically, namespaces serve as a way of grouping XML.
-XML Namespaces provide a method to avoid element name conflicts.The namespace can be defined by an `xmlns` attribute in the start tag of an element.The namespace declaration has the following syntax:`xmlns:prefix="URI"`
+XML Namespaces provide a method to avoid element name conflicts.The namespace can be defined by an `xmlns` attribute in the start tag of an element.The namespace declaration has the following syntax:
+
+`xmlns:prefix="URI"`
+
+Each schema has one target namespace and possibly many source namespaces. 
+
 Note: The namespace URI is not used by the parser to look up information.
 The purpose of using an URI is to give the namespace a unique name.
 However, companies often use the namespace as a pointer to a web page containing namespace information.
