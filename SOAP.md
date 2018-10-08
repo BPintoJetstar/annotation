@@ -6,4 +6,4 @@ This approach enforces the concept that a service is an abstract entity that is 
 ## Contract 
 The content of the WSDL document defines the contract of the web service: 
 what operations it has, how you must call them, what parameters it expects, what types do the parameters have etc.
-Basically it states the contract that you must follow to be able to successfully interact with the web service.
+Basically it states the contract that you must follow to be able to successfully interact with the web service.WSDL tells about the functions that you can implement or exposed to the client. For example: add, delete, subtract and so on.
