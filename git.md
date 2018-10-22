@@ -1,14 +1,14 @@
+# Saving credentials
+````
+git config credential.helper store
+git pull
+````
 ## Git global setup
 
 ```
 git config --global user.name "Manuel Almeida"
 git config --global user.email "manuel.almeida@marlo.com.au"
 ```
-## Saving credentials
-````
-git config credential.helper store
-git pull
-````
 # Create a new repository
 
 ```
