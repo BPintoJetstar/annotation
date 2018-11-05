@@ -1,2 +1,2 @@
-# Find a process and filter by name 
+## Find a process and filter by name 
 ps -A | grep firefox
