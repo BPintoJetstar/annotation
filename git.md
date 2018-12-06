@@ -53,9 +53,11 @@ git push -u origin --tags
 ## To save small updates without commit
 - Save with git `stash <stash name>`
 - Retrieve with `git stash <stash  name>`
-## Return back to an old commit state 
-- `git reverse <commit hash code>`
 
+## Return back to an old commit state 
+- `git reverse -n <commit hash code>`
+
+   Use -n param to avoind auto commit, your changes will go to stagin are but wont be commited. 
    More suitable use this on master bracn instead of `git reset` to avoid historic modification.
    If somehow you change the historic use `git push [...] --force` to bypass the error.
 
