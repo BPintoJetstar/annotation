@@ -3,7 +3,7 @@
 git config credential.helper store
 git pull
 ````
-## Git global setup
+# Git global setup
 
 ```
 git config --global user.name "Manuel Almeida"
@@ -37,24 +37,24 @@ git push -u origin --all
 git push -u origin --tags
 ```
 
-## Push to repository with branch
+# Push to repository with branch
 - Move to you working branch
 - `git push -u origin <branch>`
    
    where `-u` syncronizes your local branch with the remote branch
    
-## Rules to deal with branch
+# Rules to deal with branch
 - If you need to update the brach use `git pull --REBASE`
 - If you are done with the branch use `git merge` 
 
-## Setting Upstream to your branch
+# Setting Upstream to your branch
 `git branch --set-upstreamto=origim/[master|<other branch] <branch name>` 
 
-## To save small updates without commit
+# To save small updates without commit
 - Save with git `stash <stash name>`
 - Retrieve with `git stash <stash  name>`
 
-## Return back to an old commit state 
+# Return back to an old commit state 
 - `git reverse -n <commit hash code>`
 
    Use -n param to avoind auto commit, your changes will go to stagin are but wont be commited. 
@@ -65,17 +65,15 @@ git push -u origin --tags
 
    Useful for working branches  with parameters `--soft |--hard ` to determine if you wish to keep changes or not.
    
-## Resolving conflits
+# Resolving conflits
 -  After resolving the conflicted files use `git add .` to add the files to stage.
 - `git commit`continue the merge  or `git rebase --continue` if you are using rebase. 
 - Finalize with `git push origing master`.
       
     Attention: DO NOT USE  `git commit -m` to solve conflicts. And ALWAYS use `--rebase` parameter when pulling from remote.
- ## Remove branch
+ # Remove branch
 - Remote: `git push <remote_repository> --delete <branch_name>`
 - Local: `git branch -d <branch_name>`
 
    Note: The `-d` option is an alias for `--delete`, which only deletes the branch if it has already been fully merged in its upstream    branch. You could also use `-D`, which is an alias for `--delete --force`, 
    
- ## Create and Checkout
-- `git checkout -b <branch_name>`
