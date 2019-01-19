@@ -57,11 +57,11 @@ git push -u origin --tags
 # Return back to an old commit state 
 - `git reverse -n <commit hash code>`
 
-   Use -n param to avoind auto commit, your changes will go to stagin are but wont be commited. 
+   Use -n param to avoid auto-commit,changes will go to stagin area but won't be commited. 
    More suitable use this on master bracn instead of `git reset` to avoid historic modification.
    If somehow you change the historic use `git push [...] --force` to bypass the error.
 
-- `git resert<commit hash code>`
+- `git reset<commit hash code>`
 
    Useful for working branches  with parameters `--soft |--hard ` to determine if you wish to keep changes or not.
    
