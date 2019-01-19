@@ -1,6 +1,6 @@
 # FEATURES ESSENTIALS
 
-JBossFuse:karaf@root> features:install camel-blueprint
+features:install camel-blueprint
 
 # FEATURES INSTALL 
 ```
