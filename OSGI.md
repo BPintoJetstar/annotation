@@ -12,12 +12,14 @@ JBossFuse:karaf@root> features:install camel-blueprint
 features:addUrl file:C:/Projects/features.xml
 
 ### Refresh
-JBossFuse:karaf@root> features:refreshUrl
+features:refreshUrl
 
 ### List
-JBossFuse:karaf@root> features:list
-JBossFuse:karaf@root> features:listUrl
+features:list
+features:listUrl
 
+### Deploy
+features:install example-camel-bundle
 
 # PERSISTENT-ID
 ````
