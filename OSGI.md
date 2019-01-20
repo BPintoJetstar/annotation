@@ -1,7 +1,7 @@
-# FEATURES ESSENTIALS
+# ESSENTIALS
 
 features:install camel-blueprint
-
+install -s mvn:org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1 
 # FEATURES INSTALL 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
