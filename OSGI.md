@@ -16,6 +16,12 @@ H2
 MYSQL
 - install wrap:mvn:mysql/mysql-connector-java/5.1.24
 
+DBPCH
+- install mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.commons-dbcp/1.4_3
+
+PAX FEATURES
+- feature:repo-add mvn:org.ops4j.pax.jdbc/pax-jdbc-features/1.1.0/xml/features
+
 # FEATURES INSTALL 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
