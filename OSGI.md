@@ -12,6 +12,10 @@ DATASOURCE
 
 H2
 - install -s mvn:com.h2database/h2/1.4.196
+
+MYSQL
+- install wrap:mvn:mysql/mysql-connector-java/5.1.24
+
 # FEATURES INSTALL 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
