@@ -5,6 +5,9 @@
                             org.apache.openjpa.util;resolution:=optional,
                             org.osgi.framework,*;resolution:=optional,
                             *;resolution:=optional
+                            
+                            mysql  Ver 14.14 Distrib 5.7.24, for Linux (x86_64) using  EditLine wrapper
+
 
 # ESSENTIALS
 
