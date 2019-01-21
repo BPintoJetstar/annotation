@@ -4,6 +4,8 @@
 
 - features:install openjpa
 
+- `features:install openjpa/2.3.0`
+
 **JPA**
 - install -s mvn:org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1 
 
