@@ -1,3 +1,11 @@
+      ,com.jcabi;resolution:=optional,
+                            ,org.apache.ibatis
+
+                            org.apache.openjpa.enhance;resolution:=optional,
+                            org.apache.openjpa.util;resolution:=optional,
+                            org.osgi.framework,*;resolution:=optional,
+                            *;resolution:=optional
+
 # ESSENTIALS
 
 **OPENJPA**
