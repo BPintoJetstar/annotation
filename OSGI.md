@@ -1,7 +1,17 @@
 # ESSENTIALS
 
-features:install camel-blueprint
-install -s mvn:org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1 
+OPENJPA
+
+- features:install openjpa
+
+JPA
+- install -s mvn:org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1 
+
+DATASOURCE
+- [see this post ](https://stackoverflow.com/questions/44528974/fuse-6-3-dbcp-basic-datasource)
+
+H2
+- install -s mvn:com.h2database/h2/1.4.196
 # FEATURES INSTALL 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
