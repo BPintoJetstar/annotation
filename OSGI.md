@@ -12,8 +12,10 @@
 # ESSENTIALS
 
 **OPENJPA**
-
 - `features:install openjpa/2.3.0`
+
+**HTTP4**
+- features:install camel-http4
 
 **JPA**
 - install -s mvn:org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1 
@@ -32,6 +34,7 @@
 
 **PAX FEATURES**
 - feature:repo-add mvn:org.ops4j.pax.jdbc/pax-jdbc-features/1.1.0/xml/features
+
 
 # FEATURES INSTALL 
 ```
