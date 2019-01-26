@@ -32,9 +32,6 @@
 **DBPCH**
 - install mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.commons-dbcp/1.4_3
 
-**PAX FEATURES**
-- feature:repo-add mvn:org.ops4j.pax.jdbc/pax-jdbc-features/1.1.0/xml/features
-
 
 # FEATURES INSTALL 
 ```
