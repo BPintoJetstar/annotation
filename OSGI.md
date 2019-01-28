@@ -1,14 +1,3 @@
-      ,com.jcabi;resolution:=optional,
-                            ,org.apache.ibatis
-
-                            org.apache.openjpa.enhance;resolution:=optional,
-                            org.apache.openjpa.util;resolution:=optional,
-                            org.osgi.framework,*;resolution:=optional,
-                            *;resolution:=optional
-                            
-                            mysql  Ver 14.14 Distrib 5.7.24, for Linux (x86_64) using  EditLine wrapper
-
-
 # ESSENTIALS
 
 **OPENJPA**
