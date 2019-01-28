@@ -33,19 +33,39 @@
 - install mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.commons-dbcp/1.4_3
 
 **PAX**
-features:addurl mvn:org.ops4j.pax.jdbc/pax-jdbc-features/1.1.0/xml/features
-features:install pax-jdbc-config pax-jdbc-mysql pax-jdbc-pool-aries transaction 
+- features:addurl mvn:org.ops4j.pax.jdbc/pax-jdbc-features/1.1.0/xml/features
+- features:install pax-jdbc-config pax-jdbc-mysql pax-jdbc-pool-aries transaction 
 
-# FEATURES INSTALL 
+# FEATURE DEPLOY 
+
+### Sample
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<features name="CustomRepository">
+
+<features name="features-repository">
+
+    <feature name="goodbooze-features" version="1.0-SNAPSHOT">
+        <feature version="1.0-SNAPSHOT">canonical-model</feature>
+        <feature version="1.0-SNAPSHOT">soap-channel</feature>
+    </feature>
+
+    <feature name="canonical-model" version="1.0-SNAPSHOT">
+        <bundle>mvn:au.com.marlo.goodbooze/canonical-model/1.0-SNAPSHOT</bundle>
+    </feature>
+
+    <feature name="soap-channel" version="1.0-SNAPSHOT">
+        <bundle>mvn:au.com.marlo.goodbooze/soap-channel/1.0-SNAPSHOT</bundle>
+        <feature version="1.0-SNAPSHOT">canonical-model</feature>
+    </feature>
 </features>
 ```
-### Register the file 
-features:addUrl file:C:/Projects/features.xml
+
+### Register the xml 
+features:addUrl mvn:[groupID]/[arctifacIDfile]/[version]/[xml]/[feature_file_name]
 
 ### Refresh
+Always remember to refresh:
+
 features:refreshUrl
 
 ### List
