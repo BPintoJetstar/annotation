@@ -32,6 +32,9 @@
 **DBPCH**
 - install mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.commons-dbcp/1.4_3
 
+**PAX**
+features:addurl mvn:org.ops4j.pax.jdbc/pax-jdbc-features/1.1.0/xml/features
+features:install pax-jdbc-config pax-jdbc-mysql pax-jdbc-pool-aries transaction 
 
 # FEATURES INSTALL 
 ```
