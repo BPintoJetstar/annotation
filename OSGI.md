@@ -1,5 +1,8 @@
 # ESSENTIALS
 
+**UNINSTALL**
+- uninstall canonical-model soap-channel db-translator  order-manager cbr splitter suppliera-translator supplierb-translator supplierb-translator
+
 **OPENJPA**
 - `features:install openjpa/2.3.0`
 
