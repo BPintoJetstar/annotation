@@ -51,7 +51,7 @@
 ```
 
 ### Register the xml 
-features:addUrl mvn:[groupID]/[arctifacIDfile]/[version]/[xml]/[feature_file_name]
+features:addUrl mvn:[groupID]/[arctifacIDfile]/[version]/xml/[feature_file_name]
 
 ### Refresh
 Always remember to refresh:
