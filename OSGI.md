@@ -87,3 +87,9 @@ features:install example-camel-bundle
 ````
 # DATASOURCE
 - [see this post ](https://stackoverflow.com/questions/44528974/fuse-6-3-dbcp-basic-datasource)
+# COMMONS ERROS
+
+```
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class au.com.marlo.db.translator.crud.SupplierOrderCRUD
+```
+Solve: Remove the Log class. 
