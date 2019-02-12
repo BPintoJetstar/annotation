@@ -52,7 +52,9 @@
 
 ### Register the xml 
 features:addUrl mvn:[groupID]/[arctifacID]/[version]/xml/[feature_file_name]
+
 ex:
+
 features:addUrl mvn:au.com.marlo.goodbooze/goodbooze-features/1.0/xml/features
 
 ### Refresh
