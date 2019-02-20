@@ -108,3 +108,61 @@ features:install example-camel-bundle
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class au.com.marlo.db.translator.crud.SupplierOrderCRUD
 ```
 Solve: Remove the Log class. 
+
+
+
+
+    Project Features Definition
+    <feature install="auto" name="canonical-model">
+        <bundle>mvn:au.com.marlo.goodbooze/canonical-model/1.0-SNAPSHOT</bundle>
+    </feature>
+
+    <feature install="auto" name="soap-channel">
+        <bundle>mvn:au.com.marlo.goodbooze/soap-channel/1.0-SNAPSHOT</bundle>
+    </feature>
+
+    <feature name="order-manager">
+        <configfile  finalname="/etc/au.com.marlo.goodbooze.order.manager.cfg" override="true">
+            mvn:au.com.marlo.goodbooze/order-manager/1.0-SNAPSHOT/cfg
+        </configfile>
+
+        <bundle>mvn:au.com.marlo.goodbooze/order-manager/1.0-SNAPSHOT</bundle>
+
+    </feature>
+
+    <feature install="auto" name="cbr">
+        <bundle>mvn:au.com.marlo.goodbooze/cbr/1.0-SNAPSHOT</bundle>
+    </feature>
+
+    <feature install="auto" name="splitter">
+        <bundle>mvn:au.com.marlo.goodbooze/splitter/1.0-SNAPSHOT</bundle>
+    </feature>
+
+    <feature install="auto" name="datasource">
+        <bundle>wrap:mvn:mysql/mysql-connector-java/5.1.47</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.commons-dbcp/1.4_3</bundle>
+        <bundle>mvn:au.com.marlo.goodbooze/datasource/1.0-SNAPSHOT</bundle>
+    </feature>
+
+    <feature install="auto" name="db-translator">
+        <bundle>mvn:org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1</bundle>
+        <bundle>wrap:mvn:mysql/mysql-connector-java/5.1.47</bundle>
+        <feature>transaction</feature>
+        <feature version="2.4.0.redhat-630187">jdbc</feature>
+        <feature version="1.0.0">jndi</feature>
+        <feature version="2.3.0">openjpa</feature>
+        <bundle>mvn:au.com.marlo.goodbooze/db-translator/1.0-SNAPSHOT</bundle>
+    </feature>
+
+    <feature install="auto" name="suppliera-translator">
+        <feature version="2.17.0.redhat-630187">camel-http4</feature>
+        <bundle>mvn:au.com.marlo.goodbooze/suppliera-translator/1.0-SNAPSHOT</bundle>
+    </feature>
+
+    <feature install="auto" name="supplierb-translator">
+        <bundle>mvn:au.com.marlo.goodbooze/supplierb-translator/1.0-SNAPSHOT</bundle>
+    </feature>
+
+    <feature install="auto" name="supplierc-translator">
+        <bundle>mvn:au.com.marlo.goodbooze/supplierc-translator/1.0-SNAPSHOT</bundle>
+    </feature>
