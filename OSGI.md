@@ -51,7 +51,7 @@
 ```
 
 ### Register the xml 
-features:addUrl mvn:[groupID]/[arctifacID]/[version]/xml/[feature_file_name]
+features:addUrl mvn:[groupID]/[arctifacID]/[artifact-pom-version]/xml/[feature_file_name]
 
 ex:
 
