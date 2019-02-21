@@ -3,6 +3,9 @@
 **UNINSTALL**
 - uninstall canonical-model soap-channel db-translator  order-manager cbr splitter suppliera-translator supplierb-translator supplierc-translator datasource
 
+features:uninstall canonical-model soap-channel db-translator order-manager cbr splitter suppliera-translator supplierb-translator supplierc-translator datasource
+
+
 **OPENJPA**
 - `features:install openjpa/2.3.0`
 
