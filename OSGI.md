@@ -54,19 +54,7 @@
 features:addUrl mvn:[groupID]/[arctifacID]/[artifact-pom-version]/xml/[feature_file_name]
 
 ex:
-
 features:addUrl mvn:au.com.marlo.goodbooze/goodbooze-features/1.0/xml/features
-features:addUrl mvn:au.com.marlo.goodbooze/canonical-model/1.0-SNAPSHOT/xml/features
-features:addUrl mvn:au.com.marlo.goodbooze/cbr/1.0-SNAPSHOT/xml/features
-features:addUrl mvn:au.com.marlo.goodbooze/datasource/1.0-SNAPSHOT/xml/features
-features:addUrl mvn:au.com.marlo.goodbooze/db-translator/1.0-SNAPSHOT/xml/features
-features:addUrl mvn:au.com.marlo.goodbooze/order-manager/1.0-SNAPSHOT/xml/features
-features:addUrl mvn:au.com.marlo.goodbooze/soap-channel/1.0-SNAPSHOT/xml/features
-features:addUrl mvn:au.com.marlo.goodbooze/splitter/1.0-SNAPSHOT/xml/features
-features:addUrl mvn:au.com.marlo.goodbooze/suppliera-translator/1.0-SNAPSHOT/xml/features
-features:addUrl mvn:au.com.marlo.goodbooze/supplierb-translator/1.0-SNAPSHOT/xml/features
-features:addUrl mvn:au.com.marlo.goodbooze/supplierc-translator/1.0-SNAPSHOT/xml/features
-
 
 ### Refresh
 Always remember to refresh:
