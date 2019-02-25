@@ -48,8 +48,11 @@ git push -u origin --tags
 - If you are done with the branch use `git merge` 
 
 # Setting Upstream to your branch
-`git branch --set-upstreamto=origim/[master|<other branch] <branch name>` 
+`git branch --set-upstreamto=origim/[master|<other branch] <branch name>`
 
+**before push**
+`git push  -u repository branch`
+`git push  --set-upstream repository branch`
 # To save small updates without commit
 - Save with git `stash <stash name>`
 - Retrieve with `git stash <stash  name>`
