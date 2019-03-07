@@ -61,10 +61,7 @@ classifier: local,test,dev, etc
 
 ### Registering Feature 
 ex:
-features:addUrl mvn:au.com.marlo.goodbooze/goodbooze-features/1.0/xml/features
-
-### Refresh
-Always remember to refresh:
+features:addUrl mvn:au.com.marlo.goodbooze/goodbooze-features/1.0/xml/local
 
 features:refreshUrl
 
