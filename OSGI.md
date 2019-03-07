@@ -53,11 +53,13 @@ features:uninstall canonical-model soap-channel db-translator order-manager cbr 
 ```
 
 ### MVN URL HANDLER 
-mvn:[repositoryUrl!]groupId/artifactId[/[version][/[packaging][/[classifier]]]]
+`mvn: groupId/artifactId[/[version][/[packaging][/[classifier]]]]`
 
-### Register the xml 
-features:addUrl mvn:[groupID]/[arctifacID]/[artifact-pom-version]/xml/[feature_file_name]
+packaging: xml,cfg etc..
 
+classifier: local,test,dev, etc
+
+### Registering Feature 
 ex:
 features:addUrl mvn:au.com.marlo.goodbooze/goodbooze-features/1.0/xml/features
 
