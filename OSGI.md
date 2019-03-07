@@ -52,6 +52,9 @@ features:uninstall canonical-model soap-channel db-translator order-manager cbr 
 </features>
 ```
 
+### MVN URL HANDLER 
+mvn:[repositoryUrl!]groupId/artifactId[/[version][/[packaging][/[classifier]]]]
+
 ### Register the xml 
 features:addUrl mvn:[groupID]/[arctifacID]/[artifact-pom-version]/xml/[feature_file_name]
 
