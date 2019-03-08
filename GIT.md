@@ -16,7 +16,19 @@ git clone https://gitlab.com/manuel.almeida/test.git
 cd test
 ```
 
-# Existing folder
+# Rename Branch
+git branch -m <old_name> <new_name> 
+
+### delete the old branch on remote - where <remote> is eg. origin
+git push <remote> --delete old_name
+
+### push the new branch to remote         
+git push <remote> new_name
+
+### Reset the upstream branch for the new_name local branch
+git push <remote> -u new-name
+
+
 
 ```
 cd existing_folder
@@ -25,16 +37,6 @@ git remote add origin https://gitlab.com/manuel.almeida/test.git
 git add .
 git commit -m "Initial commit"
 git push -u origin master
-```
-
-# Existing Git repository
-
-``` 
-cd existing_repo
-git remote rename origin old-origin
-git remote add origin https://gitlab.com/manuel.almeida/test.git
-git push -u origin --all
-git push -u origin --tags
 ```
 
 # Push to repository with branch
@@ -48,11 +50,9 @@ git push -u origin --tags
 - If you are done with the branch use `git merge` 
 
 # Setting Upstream to your branch
-`git branch --set-upstreamto=origim/[master|<other branch] <branch name>`
-
-**before push**
-`git push  -u repository branch`
+`git push  -u origin branch`
 `git push  --set-upstream repository branch`
+
 # To save small updates without commit
 - Save with git `stash <stash name>`
 - Retrieve with `git stash <stash  name>`
