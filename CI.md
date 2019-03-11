@@ -7,8 +7,10 @@ Continuous integration involves integrating early and often, so as to avoid the 
 
 Jez Humble specifies two fundamental principles of CI. The first is “integrate all their work into trunk,” and the second is “at least dailwithout the full stack, the developers will impair themselves and be less effective and efficient. For the developers, continuous integration is a must as it is one the primary practices in eXtreme Programming and Agiy.” Integrating with trunk, mainline, or master daily is part of the definition of CI. Without it, you are not practicing true CI.
 
+### Conitnuous Integration -> Continuous Delivery | Continuous Deploy###
+
 # Continuous Delivery # 
-Continuous Delivery means that artifacts are built and made ready to be deployed. But they will not be deployed without a manual decision by a human being.
+Continuous Delivery means that artifacts are built and made ready to be deployed. But they will not be deployed without a manual decision by a human being. Change must pass through approvation 
 
 # Continuous Deployment #
 Continuous Deployment implies all processes are automated, and a single commit triggers an automated pipeline that will eventually bring a new version of your application to the production environment without any human intervention.
