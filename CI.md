@@ -28,3 +28,20 @@ Build pipne line represents the steps to move new code from development into pro
 3. Integrate (the new code into the existing code base)
 4. Acceptance test (test the entire system to ensure it meets the users expectations)
 5. Deploy to production
+
+# FUNCTIONAL TESTING #
+
+Is a type of software testing whereby the system is tested against the functional requirements/specifications.
+During functional testing, **Black Box** Testing technique is used in which the internal logic of the system being tested is not known to the tester.
+
+Functional testing is normally performed during the levels of System Testing and Acceptance Testing.
+
+Typically, functional testing involves the following steps:
+
+Identify functions that the software is expected to perform.
+Create input data based on the function’s specifications.
+Determine the output based on the function’s specifications.
+Execute the test case.
+Compare the actual and expected outputs.
+Functional testing is more effective when the test conditions are created directly from user/business requirements. When test conditions are created from the system documentation (system requirements/ design documents), the defects in that documentation will not be detected through testing and this may be the cause of end-users’ wrath when they finally use the software.
+
