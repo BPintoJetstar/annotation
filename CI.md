@@ -36,7 +36,7 @@ During functional testing, **Black Box** Testing technique is used in which the 
 
 Functional testing is normally performed during the levels of System Testing and Acceptance Testing.
 
-Typically, functional testing involves the following steps:
+**Typically, functional testing involves the following steps:**
 
 Identify functions that the software is expected to perform.
 Create input data based on the function’s specifications.
