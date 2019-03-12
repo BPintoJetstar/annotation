@@ -45,3 +45,8 @@ Execute the test case.
 Compare the actual and expected outputs.
 Functional testing is more effective when the test conditions are created directly from user/business requirements. When test conditions are created from the system documentation (system requirements/ design documents), the defects in that documentation will not be detected through testing and this may be the cause of end-users’ wrath when they finally use the software.
 
+# Behavior Driven Development #
+Behavior Driven Development Behavior Driven Development (BDD) is a collaborative process that **creates a shared understanding of requirements between the business and the Development Team**. Its goal is to help guide development, decrease rework, and increase flow. Without focusing on internal implementation, BDD tests are business-facing scenarios that attempt to describe the behavior of a Story, Feature, or Capability from a user’s perspective. When automated, these tests ensure that the system continuously meets the specified behavior even as the system evolves. 
+
+https://www.scaledagileframework.com/behavior-driven-development/
+
