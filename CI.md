@@ -19,6 +19,13 @@ Continuous Deployment implies all processes are automated, and a single commit t
 
 While many companies practice Continuous Delivery, few embrace Continuous Deployment. Continuous Deployment is risky because anyone could introduce a bug into production with a simple commit, and you need to introduce processes to reduce this risk.
 
+## What is Continuous Testing ##
+ 
+Continuous testing is the process of executing automated tests as part of the software delivery pipeline to obtain feedback on the business risks associated with a software release candidate as rapidly as possible.
+
+ 
+Test automation is designed to produce a set of pass/fail data points correlated to user stories or application requirements. Continuous testing, on the other hand, focuses on business risk and provides insight on whether the software can be released. To achieve this shift, we need to stop asking, “Are we done testing?” and instead concentrate on, “Does the release candidate have an acceptable level of business risk?”
+
 # PipeLine #
 
 Build pipne line represents the steps to move new code from development into production. The basic steps in the build pipeline are:
