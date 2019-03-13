@@ -20,6 +20,7 @@ Continuous Deployment implies all processes are automated, and a single commit t
 While many companies practice Continuous Delivery, few embrace Continuous Deployment. Continuous Deployment is risky because anyone could introduce a bug into production with a simple commit, and you need to introduce processes to reduce this risk.
 
 # What is Continuous Testing #
+Regression testing a black box testing technique that consists of re-executing those tests that are impacted by the code changes. These tests should be executed as often as possible throughout the software development life cycle.
  
 Continuous testing is the process of executing automated tests as part of the software delivery pipeline to obtain feedback on the business risks associated with a software release candidate as rapidly as possible.
  
