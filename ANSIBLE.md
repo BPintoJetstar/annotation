@@ -36,6 +36,10 @@ Ansible collects pretty much all the information about the remote hosts as it ru
 
 [see more](https://www.middlewareinventory.com/blog/ansible-facts-list-how-to-use-ansible-facts/)
 
+## Playbooks
+Playbooks are Ansible’s configuration, deployment, and orchestration language. They can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process.
+
+If Ansible modules are the tools in your workshop, playbooks are your instruction manuals, and your inventory of hosts are your raw material.
 
 ## Invetory
 
