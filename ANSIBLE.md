@@ -11,8 +11,12 @@ Create a virtual environment (create a folder first)
 `virtualenv myenv`
 
 Excute the enviroment 
+- ./script runs the script as an executable file, launching a new shell to run it
+- source script reads and executes commands from filename in the current shell environment
 
 `source venv27/bin/activate`
+
+
 
 Verify if python is installed on recent created enviroment
 
