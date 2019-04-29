@@ -3,7 +3,21 @@
 `sudo apt-get update`
 
 Install python  dependencies  
+
 `sudo apt-get install python-minimal virtualenv python-dev build-essential`
+
+Create a virtual environment (create a folder first)
+
+`virtualenv myenv`
+
+Excute the enviroment 
+`source venv27/bin/activate`
+
+Verify if python is installed on recent created enviroment
+`which python`
+
+Install Ansible with pip insid the env
+`pip install ansible`
 
 ## Invetory
 
