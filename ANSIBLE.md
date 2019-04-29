@@ -29,6 +29,14 @@ Install Ansible with pip insid the env
 Setting default repository 
 pip install git+https://github.com/ansible/ansible
 
+## FACTS
+
+What are Ansible Facts
+Ansible collects pretty much all the information about the remote hosts as it runs a playbook. The task of collecting this remote system information is called as Gathering Facts by ansible and the details collected are generally known as facts or variables
+
+[see more](https://www.middlewareinventory.com/blog/ansible-facts-list-how-to-use-ansible-facts/)
+
+
 ## Invetory
 
 Ansible works against multiple systems in your infrastructure at the same time. It does this by selecting portions of systems listed in Ansible’s inventory file, which defaults to being saved in the location /etc/ansible/hosts. You can specify a different inventory file using the -i <path> option on the command line.
