@@ -30,9 +30,8 @@ Setting default repository
 pip install git+https://github.com/ansible/ansible
 
 ## FACTS
+JSON with a collection of host's information 
 
-What are Ansible Facts
-Ansible collects pretty much all the information about the remote hosts as it runs a playbook. The task of collecting this remote system information is called as Gathering Facts by ansible and the details collected are generally known as facts or variables
 
 [see more](https://www.middlewareinventory.com/blog/ansible-facts-list-how-to-use-ansible-facts/)
 
