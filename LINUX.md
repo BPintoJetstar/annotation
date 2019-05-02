@@ -6,3 +6,8 @@ kill PID
 <command> `&`
 After you done  excute command `jobs` to find your job
 
+## Run Commands on romote machine
+It's possible to excute commands on remote machine via ssh. You'll continuo on local terminal.
+
+`ssh <host_name>  <command>`
+
