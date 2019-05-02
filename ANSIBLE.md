@@ -57,4 +57,5 @@ In our little example above, we’d just need to create a separate virtual envir
 The great thing about this is that there are no limits to the number of environments you can have since they’re just directories containing a few scripts. Plus, they’re easily created using the virtualenv or pyenv command line tools.
 
 ## Dynamic List 
-
+## Magic Variables
+Whether or not you define any variables, you can access information about your hosts with the Special Variables Ansible provides, including “magic” variables, facts, and connection variables. Magic variable names are reserved - do not set variables with these names. The variable environment is also reserved.
