@@ -59,3 +59,6 @@ The great thing about this is that there are no limits to the number of environm
 ## Dynamic Inventory 
 ## Magic Variables
 Whether or not you define any variables, you can access information about your hosts with the Special Variables Ansible provides, including “magic” variables, facts, and connection variables. Magic variable names are reserved - do not set variables with these names. The variable environment is also reserved.
+
+## PATCH FILE 
+Patch is a command that is used to apply patch files to the files like source code, configuration. Patch files holds the difference between original file and new file. In order to get the difference or patch we use diff tool.
