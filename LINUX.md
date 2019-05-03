@@ -16,4 +16,5 @@ Patch is a command that is used to apply patch files to the files like source co
 
 
 ## COMMANDS
-`ps -ef | grep ansible | grep -v grep`
+`watch --differences ps -ef | grep ansible | grep -v grep`
+
