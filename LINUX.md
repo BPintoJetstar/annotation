@@ -18,3 +18,8 @@ Patch is a command that is used to apply patch files to the files like source co
 ## COMMANDS
 `watch --differences ps -ef | grep ansible | grep -v grep`
 
+## Whatch
+watch runs command repeatedly, displaying its output and errors (the
+first screenfull). This allows you to watch the program output change
+over time. By default, the program is run every 2 seconds. By
+default, watch will run until interrupted.
