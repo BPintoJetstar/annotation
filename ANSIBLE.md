@@ -23,10 +23,12 @@ Verify if python is installed on recent created enviroment
 `which python`
 
 Install Ansible with pip insid the env
- `pip install ansible`
+
+`pip install ansible`
 
 Installing other packages from ansible git repository
- `pip install git+https://github.com/ansible/ansible`
+
+`pip install git+https://github.com/ansible/ansible`
 
 ## FACTS
 JSON with a collection of host's information 
