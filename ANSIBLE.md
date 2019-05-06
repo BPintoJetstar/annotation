@@ -14,7 +14,7 @@ Excute the enviroment
 - ./script runs the script as an executable file, launching a new shell to run it
 - source script reads and executes commands from filename in the current shell environment
 
-`source venv27/bin/activate`
+`source ansible/venv27/bin/activate`
 
 
 
