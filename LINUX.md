@@ -30,6 +30,5 @@ over time. By default, the program is run every 2 seconds. By
 default, watch will run until interrupted.
 
 ## Source vs ./
-Excute the en
-- ./script runs the script as an executable file, launching a new shell to run it
-- source script reads and executes commands from filename in the current shell environment
+- `./` script runs the script as an executable file, launching a new shell to run it
+- `source` script reads and executes commands from filename in the current shell environment
