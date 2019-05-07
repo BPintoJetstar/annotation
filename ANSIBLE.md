@@ -55,6 +55,7 @@ The great thing about this is that there are no limits to the number of environm
 
 ## Dynamic Inventory 
 Used when hots availabilty can change over time via  custom scripts or plugins.
+
 ` inventory plugin vs script pluging `
 
 ## Magic Variables
