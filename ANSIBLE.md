@@ -18,13 +18,13 @@ Verify if python is installed on recent created enviroment
 
 `which python`
 
-Install Ansible with pip insid the env
+Install Ansible with pip inside the env
 
 `pip install ansible`
 
-Installing other packages from ansible git repository
+- Or if you are looking for the latest development version
 
-`pip install git+https://github.com/ansible/ansible`
+ - `pip install git+https://github.com/ansible/ansible`
 
 ## FACTS
 JSON with a collection of host's information 
