@@ -22,7 +22,7 @@ Install Ansible with pip insid the env
 
 `pip install ansible`
 
-Installing other packages from ansible git repository
+Alternativelly, if you are looking for the latest development version
 
 `pip install git+https://github.com/ansible/ansible`
 
